@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bavaria 34 Cruiser</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f9f9f9; }
+    header { background: #ffcc00; padding: 1rem; text-align: center; }
+    .container { padding: 2rem; max-width: 800px; margin: auto; background: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    img { width: 100%; border-radius: 6px; }
+    h1 { margin-bottom: 0.5rem; }
+    form { margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem; }
+    input, textarea { padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
+    button { padding: 0.5rem; background: #ffcc00; border: none; font-weight: bold; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header><h1>Bavaria 34 Cruiser</h1></header>
+  <div class="container">
+    <img src="https://source.unsplash.com/800x400/?boat" alt="Bavaria 34 Cruiser">
+    <p><strong>Prezzo:</strong> €65.000</p>
+    <p><strong>Anno:</strong> 2012</p>
+    <p>Una barca solida e affidabile, perfetta per la crociera costiera.</p>
+    <h2>Contattaci per questa barca</h2>
+    <form action="https://formsubmit.co/tuo@email.it" method="POST">
+      <input type="text" name="nome" placeholder="Il tuo nome" required />
+      <input type="email" name="email" placeholder="La tua email" required />
+      <textarea name="messaggio" placeholder="Il tuo messaggio" rows="5" required></textarea>
+      <button type="submit">Invia</button>
+    </form>
+  </div>
+</body>
+</html>
